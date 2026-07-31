@@ -1,7 +1,0 @@
-title = "Custom Gitleaks Rules"
-
-[[rules]]
-id = "terraform-admin-password"
-description = "Detect hardcoded admin_password"
-regex = '''admin_password\s*=\s*"[^"]+"'''
-tags = ["terraform", "password"]
