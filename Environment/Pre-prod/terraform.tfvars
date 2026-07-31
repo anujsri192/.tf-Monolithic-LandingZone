@@ -3,6 +3,10 @@ rgs = {
     resource_group_name = "rg-2407"
     location            = "AustraliaEast"
   }
+  rg2={
+    resource_group_name = "rg-git"
+    location = "AustraliaEast"
+  }
 }
 
 vnets = {
